@@ -101,7 +101,6 @@ defaultBotSettings =
     , unloadStationName = Nothing
     , unloadStructureName = Nothing
     , modulesToActivateAlways = []
-    , hideWhenNeutralInLocal = Yes
     , targetingRange = 8000
     , miningModuleRange = 5000
     , botStepDelayMilliseconds = 1300
