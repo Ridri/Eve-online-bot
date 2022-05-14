@@ -97,14 +97,14 @@ import Regex
 -}
 defaultBotSettings : BotSettings
 defaultBotSettings =
-    { runAwayShieldHitpointsThresholdPercent = 10
-    , unloadStationName = "Ayeroilen IX - Moon 10 - Freedom Extension Warehouse"
+    { runAwayShieldHitpointsThresholdPercent = 70
+    , unloadStationName = Nothing
     , unloadStructureName = Nothing
-    , modulesToActivateAlways = ["shield hardener"]
-    , hideWhenNeutralInLocal = "no"
-    , targetingRange = 15000
-    , miningModuleRange = 10000
-    , botStepDelayMilliseconds = 500
+    , modulesToActivateAlways = []
+    , hideWhenNeutralInLocal = Nothing
+    , targetingRange = 8000
+    , miningModuleRange = 5000
+    , botStepDelayMilliseconds = 1300
     , miningHoldMaxPercent = 99
     , selectInstancePilotName = Nothing
     }
